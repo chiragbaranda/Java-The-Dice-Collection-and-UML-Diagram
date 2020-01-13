@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Dice">
+  <ClassDiagramComponents>
+    <Class name="Dice" package="Assignment4_DiceRolling" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="numberOfSides" type="int" visibility="private"/>
+        <Field name="currentDiceSide" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="int" name="numberOfSides"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getSideNumber" returnType="//create geter method for sidenumber.
+int" visibility="public"/>
+        <Method name="setSideNumber" returnType="//create seter method for sidenumber.
+void" visibility="public">
+          <Argument type="int" name="numberOfSides"/>
+        </Method>
+        <Method name="getTopSide" returnType="//create geter topside method. 
+int" visibility="public"/>
+        <Method name="setTopSide" returnType="//create a seter top side method.
+void" visibility="public">
+          <Argument type="int" name="currentDiceSide"/>
+        </Method>
+        <Method name="rollTheDice" returnType="//create roll method.
+void" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

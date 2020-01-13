@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="RollDice">
+  <ClassDiagramComponents>
+    <Class name="RollDice" package="Assignment4_DiceRolling" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="MaximumRollingTime" type="int" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="input" type="Scanner" visibility="private" isStatic="true"/>
+        <Field name="rollResult" type="int[]" visibility="public" isStatic="true"/>
+        <Field name="minSum" type="int" visibility="public" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

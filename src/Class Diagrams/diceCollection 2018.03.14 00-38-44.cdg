@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="diceCollection">
+  <ClassDiagramComponents>
+    <Class name="diceCollection" package="Assignment4_DiceRolling" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="numberOfDices" type="int" visibility="private"/>
+        <Field name="dice" type="Dice[]" visibility="private"/>
+        <Field name="MaximumPossibleSumForRolledDice" type="int" visibility="private"/>
+        <Field name="minimumPossibleSumForRolledDice" type="int" visibility="private"/>
+        <Field name="sumOfRolledDice" type="int" visibility="private"/>
+        <Field name="rollResult" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="numberOfDices"/>
+          <Argument type="int[]" name="diceSides"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="rollDices" returnType="//create method to roll the dices.
+void" visibility="public">
+          <Argument type="int" name="NumberOfRollForDice"/>
+        </Method>
+        <Method name="getSumOfTopSides" returnType="void" visibility="private"/>
+        <Method name="rollAllDices" returnType="void" visibility="private"/>
+        <Method name="showCount" returnType="char[]" visibility="public">
+          <Argument type="int" name="NumberOfRollForDice"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+        <Method name="getMinSumPosible" returnType="//create a minimum sum method.
+int" visibility="public"/>
+        <Method name="getRollResult" returnType="//create get method for rollrsult.
+int[]" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
